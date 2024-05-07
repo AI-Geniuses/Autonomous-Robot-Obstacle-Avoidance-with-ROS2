@@ -1,0 +1,193 @@
+[1.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e5f84e31750>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e5f84e31240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e5f84e31240>>)
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.893s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aoutir/rc_car'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extensions ['ignore', 'ignore_ament_install']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extension 'ignore'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extension 'ignore_ament_install'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extensions ['colcon_pkg']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extension 'colcon_pkg'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extensions ['colcon_meta']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extension 'colcon_meta'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extensions ['ros']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_desc) by extension 'ros'
+[1.944s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_desc' with type 'ros.ament_cmake' and name 'robot_desc'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extensions ['ignore', 'ignore_ament_install']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extension 'ignore'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extension 'ignore_ament_install'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extensions ['colcon_pkg']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extension 'colcon_pkg'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extensions ['colcon_meta']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extension 'colcon_meta'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extensions ['ros']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sample_example) by extension 'ros'
+[1.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_sample_example' with type 'ros.ament_python' and name 'robot_sample_example'
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.066s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aoutir/rc_car/install/robot_sample_example' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.066s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aoutir/rc_car/install/robot_example' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.067s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/aoutir/rc_car/install/robot_desc' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.067s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/aoutir/rc_car/install/robot_desc' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.070s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/aoutir/rc_car/install
+[2.072s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/iron
+[2.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'cmake_args' from command line to 'None'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'cmake_target' from command line to 'None'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'cmake_clean_cache' from command line to 'False'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'cmake_clean_first' from command line to 'False'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'cmake_force_configure' from command line to 'False'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'ament_cmake_args' from command line to 'None'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'catkin_cmake_args' from command line to 'None'
+[2.164s] Level 5:colcon.colcon_core.verb:set package 'robot_desc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.164s] DEBUG:colcon.colcon_core.verb:Building package 'robot_desc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aoutir/rc_car/build/robot_desc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aoutir/rc_car/install/robot_desc', 'merge_install': False, 'path': '/home/aoutir/rc_car/src/robot_desc', 'symlink_install': False, 'test_result_base': None}
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'cmake_args' from command line to 'None'
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'cmake_target' from command line to 'None'
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'cmake_clean_cache' from command line to 'False'
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'cmake_clean_first' from command line to 'False'
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'cmake_force_configure' from command line to 'False'
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'ament_cmake_args' from command line to 'None'
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'catkin_cmake_args' from command line to 'None'
+[2.165s] Level 5:colcon.colcon_core.verb:set package 'robot_sample_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.165s] DEBUG:colcon.colcon_core.verb:Building package 'robot_sample_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aoutir/rc_car/build/robot_sample_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aoutir/rc_car/install/robot_sample_example', 'merge_install': False, 'path': '/home/aoutir/rc_car/src/robot_sample_example', 'symlink_install': False, 'test_result_base': None}
+[2.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.168s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.168s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aoutir/rc_car/src/robot_desc' with build type 'ament_cmake'
+[2.168s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aoutir/rc_car/src/robot_desc'
+[2.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.216s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aoutir/rc_car/src/robot_sample_example' with build type 'ament_python'
+[2.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sample_example', 'ament_prefix_path')
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/hook/ament_prefix_path.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/hook/ament_prefix_path.dsv'
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/hook/ament_prefix_path.sh'
+[2.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/home/aoutir/rc_car/install/robot_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+[2.918s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aoutir/rc_car/src/robot_sample_example'
+[2.918s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/home/aoutir/rc_car/install/robot_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+[3.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/home/aoutir/rc_car/install/robot_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_desc
+[3.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_desc)
+[3.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/home/aoutir/rc_car/install/robot_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_desc
+[3.320s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc' for CMake module files
+[3.320s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc' for CMake config files
+[3.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_desc', 'cmake_prefix_path')
+[3.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/hook/cmake_prefix_path.ps1'
+[3.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/hook/cmake_prefix_path.dsv'
+[3.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/hook/cmake_prefix_path.sh'
+[3.323s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc/bin'
+[3.323s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc/lib/pkgconfig/robot_desc.pc'
+[3.324s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc/lib/python3.10/site-packages'
+[3.324s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc/bin'
+[3.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.ps1'
+[3.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.dsv'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.sh'
+[3.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.bash'
+[3.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.zsh'
+[3.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aoutir/rc_car/install/robot_desc/share/colcon-core/packages/robot_desc)
+[3.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_desc)
+[3.394s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc' for CMake module files
+[3.394s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc' for CMake config files
+[3.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_desc', 'cmake_prefix_path')
+[3.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/hook/cmake_prefix_path.ps1'
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/hook/cmake_prefix_path.dsv'
+[3.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/hook/cmake_prefix_path.sh'
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc/bin'
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc/lib/pkgconfig/robot_desc.pc'
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc/lib/python3.10/site-packages'
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_desc/bin'
+[3.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.ps1'
+[3.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.dsv'
+[3.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.sh'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.bash'
+[3.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.zsh'
+[3.408s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aoutir/rc_car/install/robot_desc/share/colcon-core/packages/robot_desc)
+[4.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aoutir/rc_car/src/robot_sample_example': PYTHONPATH=/home/aoutir/rc_car/build/robot_sample_example/prefix_override:/home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_sample_example build --build-base /home/aoutir/rc_car/build/robot_sample_example/build install --record /home/aoutir/rc_car/build/robot_sample_example/install.log --single-version-externally-managed install_data
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_sample_example' for CMake module files
+[4.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aoutir/rc_car/src/robot_sample_example' returned '0': PYTHONPATH=/home/aoutir/rc_car/build/robot_sample_example/prefix_override:/home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_sample_example build --build-base /home/aoutir/rc_car/build/robot_sample_example/build install --record /home/aoutir/rc_car/build/robot_sample_example/install.log --single-version-externally-managed install_data
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_sample_example' for CMake config files
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_sample_example/lib'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_sample_example/bin'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_sample_example/lib/pkgconfig/robot_sample_example.pc'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages'
+[4.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sample_example', 'pythonpath')
+[4.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/hook/pythonpath.ps1'
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/hook/pythonpath.dsv'
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/hook/pythonpath.sh'
+[4.748s] Level 1:colcon.colcon_core.environment:checking '/home/aoutir/rc_car/install/robot_sample_example/bin'
+[4.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_sample_example)
+[4.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/package.ps1'
+[4.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/package.dsv'
+[4.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/package.sh'
+[4.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/package.bash'
+[4.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example/package.zsh'
+[4.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aoutir/rc_car/install/robot_sample_example/share/colcon-core/packages/robot_sample_example)
+[4.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.752s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.767s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.768s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.768s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.840s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.840s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aoutir/rc_car/install/local_setup.ps1'
+[4.843s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aoutir/rc_car/install/_local_setup_util_ps1.py'
+[4.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aoutir/rc_car/install/setup.ps1'
+[4.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aoutir/rc_car/install/local_setup.sh'
+[4.850s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aoutir/rc_car/install/_local_setup_util_sh.py'
+[4.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aoutir/rc_car/install/setup.sh'
+[4.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aoutir/rc_car/install/local_setup.bash'
+[4.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aoutir/rc_car/install/setup.bash'
+[4.856s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aoutir/rc_car/install/local_setup.zsh'
+[4.858s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aoutir/rc_car/install/setup.zsh'

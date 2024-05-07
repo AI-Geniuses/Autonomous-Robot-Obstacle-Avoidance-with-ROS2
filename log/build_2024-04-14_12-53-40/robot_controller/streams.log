@@ -1,0 +1,44 @@
+[0.436s] Invoking command in '/home/aoutir/rc_car/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_controller -- -j2 -l2
+[0.801s] Built target ament_cmake_python_copy_robot_controller
+[1.644s] running egg_info
+[1.645s] writing robot_controller.egg-info/PKG-INFO
+[1.645s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[1.645s] writing top-level names to robot_controller.egg-info/top_level.txt
+[1.653s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.653s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.780s] Built target ament_cmake_python_build_robot_controller_egg
+[2.056s] Invoked command in '/home/aoutir/rc_car/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_controller -- -j2 -l2
+[2.476s] Invoking command in '/home/aoutir/rc_car/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_controller
+[2.493s] -- Install configuration: ""
+[2.493s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/pythonpath.sh
+[2.502s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/pythonpath.dsv
+[2.502s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[2.502s] -- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.502s] -- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[2.502s] -- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.502s] -- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[2.502s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[2.502s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/simple_controller.py
+[2.503s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py
+[2.573s] Listing '/home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller'...
+[2.594s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config
+[2.594s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config/robot_controllers.yaml
+[2.594s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch
+[2.594s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch/controller.launch.py
+[2.616s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/robot_controller/simple_controller.py
+[2.616s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[2.616s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[2.616s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[2.620s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[2.620s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/path.sh
+[2.620s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/path.dsv
+[2.620s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/local_setup.bash
+[2.621s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/local_setup.sh
+[2.621s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/local_setup.zsh
+[2.621s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/local_setup.dsv
+[2.621s] -- Installing: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/package.dsv
+[2.621s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[2.621s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[2.622s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[2.622s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/package.xml
+[2.648s] Invoked command in '/home/aoutir/rc_car/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_controller

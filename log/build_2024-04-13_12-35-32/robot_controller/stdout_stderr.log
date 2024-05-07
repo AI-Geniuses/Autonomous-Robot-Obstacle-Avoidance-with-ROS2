@@ -1,0 +1,51 @@
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclpy: 4.1.4 (/opt/ros/iron/share/rclpy/cmake)
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aoutir/rc_car/build/robot_controller
+Built target ament_cmake_python_copy_robot_controller
+running egg_info
+creating robot_controller.egg-info
+writing robot_controller.egg-info/PKG-INFO
+writing dependency_links to robot_controller.egg-info/dependency_links.txt
+writing top-level names to robot_controller.egg-info/top_level.txt
+writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_robot_controller_egg
+-- Install configuration: ""
+-- Installing: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/pythonpath.sh
+-- Installing: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/pythonpath.dsv
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/simple_controller.py
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py
+Listing '/home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller'...
+Compiling '/home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py'...
+Compiling '/home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/simple_controller.py'...
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config/robot_controllers.yaml
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch
+-- Installing: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch/controller.launch.py
+[31mCMake Error at cmake_install.cmake:77 (file):
+  file INSTALL cannot find
+  "/home/aoutir/rc_car/src/robot_controller/$(PROJECT_NAME)/simple_controller.py":
+  No such file or directory.
+
+[0m

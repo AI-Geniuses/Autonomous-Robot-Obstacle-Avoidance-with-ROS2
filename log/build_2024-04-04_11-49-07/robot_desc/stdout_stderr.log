@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/urdf/robot_description.urdf.xacro
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/rviz/display.rviz
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/ament_index/resource_index/package_run_dependencies/robot_desc
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/ament_index/resource_index/parent_prefix_path/robot_desc
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/environment/ament_prefix_path.sh
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/environment/path.sh
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/environment/path.dsv
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/local_setup.bash
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/local_setup.sh
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/local_setup.zsh
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/local_setup.dsv
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.dsv
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/ament_index/resource_index/packages/robot_desc
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/cmake/robot_descConfig.cmake
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/cmake/robot_descConfig-version.cmake
+-- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.xml

@@ -1,0 +1,21 @@
+[1.289s] Invoking command in '/home/aoutir/rc_car/build/robot_sample_example': PYTHONPATH=/home/aoutir/rc_car/build/robot_sample_example/prefix_override:/home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aoutir/rc_car/build/robot_sample_example/build --no-deps symlink_data --force
+[1.801s] running develop
+[1.806s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.807s]   warnings.warn(
+[2.063s] running egg_info
+[2.064s] writing robot_sample_example.egg-info/PKG-INFO
+[2.066s] writing dependency_links to robot_sample_example.egg-info/dependency_links.txt
+[2.068s] writing entry points to robot_sample_example.egg-info/entry_points.txt
+[2.070s] writing requirements to robot_sample_example.egg-info/requires.txt
+[2.070s] writing top-level names to robot_sample_example.egg-info/top_level.txt
+[2.076s] reading manifest file 'robot_sample_example.egg-info/SOURCES.txt'
+[2.077s] writing manifest file 'robot_sample_example.egg-info/SOURCES.txt'
+[2.080s] running build_ext
+[2.081s] Creating /home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages/robot-sample-example.egg-link (link to .)
+[2.083s] Installing create_parameter script to /home/aoutir/rc_car/install/robot_sample_example/lib/robot_sample_example
+[2.085s] 
+[2.085s] Installed /home/aoutir/rc_car/build/robot_sample_example
+[2.085s] running symlink_data
+[2.086s] symbolically linking /home/aoutir/rc_car/build/robot_sample_example/resource/robot_sample_example -> /home/aoutir/rc_car/install/robot_sample_example/share/ament_index/resource_index/packages
+[2.087s] symbolically linking /home/aoutir/rc_car/build/robot_sample_example/package.xml -> /home/aoutir/rc_car/install/robot_sample_example/share/robot_sample_example
+[2.133s] Invoked command in '/home/aoutir/rc_car/build/robot_sample_example' returned '0': PYTHONPATH=/home/aoutir/rc_car/build/robot_sample_example/prefix_override:/home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aoutir/rc_car/build/robot_sample_example/build --no-deps symlink_data --force

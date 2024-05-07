@@ -1,0 +1,13 @@
+[0.034s] Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+[0.071s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.389s] [31mCMake Error at CMakeLists.txt:11 (install):
+[0.389s]   install does not recognize sub-command DIRECTORIES
+[0.389s] 
+[0.389s] [0m
+[0.389s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.471s] -- Added test 'lint_cmake' to check CMake code style
+[0.474s] -- Added test 'xmllint' to check XML markup files
+[0.477s] -- Configuring incomplete, errors occurred!
+[0.477s] See also "/home/aoutir/rc_car/build/robot_desc/CMakeFiles/CMakeOutput.log".
+[0.500s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.502s] Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2

@@ -1,0 +1,12 @@
+[0.045s] Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/home/aoutir/rc_car/install/robot_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+[0.427s] Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/home/aoutir/rc_car/install/robot_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+[1.037s] Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/home/aoutir/rc_car/install/robot_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_desc
+[1.053s] -- Install configuration: ""
+[1.055s] -- Up-to-date: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/urdf
+[1.056s] -- Up-to-date: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/urdf/robot_description.urdf.xacro
+[1.057s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.057s]   file INSTALL cannot find "/home/aoutir/rc_car/src/robot_desc/launch": No
+[1.058s]   such file or directory.
+[1.059s] 
+[1.059s] [0m
+[1.065s] Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/home/aoutir/rc_car/install/robot_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_desc

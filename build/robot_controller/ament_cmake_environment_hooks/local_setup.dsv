@@ -1,0 +1,3 @@
+source;share/robot_controller/environment/ament_prefix_path.sh
+source;share/robot_controller/environment/path.sh
+source;share/robot_controller/environment/pythonpath.sh

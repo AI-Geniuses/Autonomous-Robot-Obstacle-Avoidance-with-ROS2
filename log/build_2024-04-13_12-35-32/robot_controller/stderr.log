@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:77 (file):
+  file INSTALL cannot find
+  "/home/aoutir/rc_car/src/robot_controller/$(PROJECT_NAME)/simple_controller.py":
+  No such file or directory.
+
+[0m

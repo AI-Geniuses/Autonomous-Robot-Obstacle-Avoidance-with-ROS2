@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config
+-- Installing: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config/robot_controllers.yaml
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch/controller.launch.py
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/path.sh
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/path.dsv
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/local_setup.bash
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/local_setup.sh
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/local_setup.zsh
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/local_setup.dsv
+-- Installing: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/package.dsv
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/package.xml

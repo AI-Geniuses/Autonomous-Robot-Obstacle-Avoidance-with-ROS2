@@ -1,0 +1,10 @@
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclpy: 4.1.4 (/opt/ros/iron/share/rclpy/cmake)
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/aoutir/rc_car/build/robot_controller/CMakeFiles/CMakeOutput.log".

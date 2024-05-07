@@ -1,0 +1,11 @@
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[31mCMake Error at CMakeLists.txt:11 (install):
+  install does not recognize sub-command LINK_DIRECTORIES
+
+[0m
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring incomplete, errors occurred!
+See also "/home/aoutir/rc_car/build/robot_desc/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

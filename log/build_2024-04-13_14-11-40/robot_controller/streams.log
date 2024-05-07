@@ -1,0 +1,34 @@
+[0.055s] Invoking command in '/home/aoutir/rc_car/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_controller -- -j2 -l2
+[0.299s] Built target ament_cmake_python_copy_robot_controller
+[1.027s] running egg_info
+[1.029s] writing robot_controller.egg-info/PKG-INFO
+[1.029s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[1.030s] writing top-level names to robot_controller.egg-info/top_level.txt
+[1.030s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.031s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.053s] Built target ament_cmake_python_build_robot_controller_egg
+[1.327s] Invoked command in '/home/aoutir/rc_car/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_controller -- -j2 -l2
+[1.443s] Invoking command in '/home/aoutir/rc_car/build/robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_controller
+[1.467s] -- Install configuration: ""
+[1.472s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/pythonpath.sh
+[1.472s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/pythonpath.dsv
+[1.472s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[1.472s] -- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.472s] -- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.487s] -- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.487s] -- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.487s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[1.487s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/simple_controller.py
+[1.487s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py
+[1.531s] Listing '/home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller'...
+[1.539s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config
+[1.539s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config/robot_controllers.yaml
+[1.539s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch
+[1.539s] -- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch/controller.launch.py
+[1.539s] [31mCMake Error at cmake_install.cmake:77 (file):
+[1.539s]   file INSTALL cannot find
+[1.539s]   "/home/aoutir/rc_car/src/robot_controller/$(PROJECT_NAME)/simple_controller.py":
+[1.539s]   No such file or directory.
+[1.539s] 
+[1.539s] [0m
+[1.543s] Invoked command in '/home/aoutir/rc_car/build/robot_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_controller

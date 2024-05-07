@@ -1,0 +1,30 @@
+Built target ament_cmake_python_copy_robot_controller
+running egg_info
+writing robot_controller.egg-info/PKG-INFO
+writing dependency_links to robot_controller.egg-info/dependency_links.txt
+writing top-level names to robot_controller.egg-info/top_level.txt
+reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_robot_controller_egg
+-- Install configuration: ""
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/pythonpath.sh
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/environment/pythonpath.dsv
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/simple_controller.py
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py
+Listing '/home/aoutir/rc_car/install/robot_controller/lib/python3.10/site-packages/robot_controller'...
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/config/robot_controllers.yaml
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch
+-- Up-to-date: /home/aoutir/rc_car/install/robot_controller/share/robot_controller/launch/controller.launch.py
+[31mCMake Error at cmake_install.cmake:77 (file):
+  file INSTALL cannot find
+  "/home/aoutir/rc_car/src/robot_controller/$(PROJECT_NAME)/simple_controller.py":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,56 @@
+[0.958s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/aoutir/rc_car']
+[0.958s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/aoutir/rc_car'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c07afe41b70>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7c07afe41060>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7c07afe41060>>)
+[2.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.537s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aoutir/rc_car'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extensions ['ignore', 'ignore_ament_install']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extension 'ignore'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extension 'ignore_ament_install'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extensions ['colcon_pkg']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extension 'colcon_pkg'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extensions ['colcon_meta']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extension 'colcon_meta'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extensions ['ros']
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extension 'ros'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extensions ['cmake', 'python']
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extension 'cmake'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extension 'python'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extensions ['python_setup_py']
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car) by extension 'python_setup_py'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/build) by extensions ['ignore', 'ignore_ament_install']
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/build) by extension 'ignore'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/build) ignored
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/install) by extensions ['ignore', 'ignore_ament_install']
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/install) by extension 'ignore'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/install) ignored
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/log) by extensions ['ignore', 'ignore_ament_install']
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/log) by extension 'ignore'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/log) ignored
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extensions ['ignore', 'ignore_ament_install']
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extension 'ignore'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extension 'ignore_ament_install'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extensions ['colcon_pkg']
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extension 'colcon_pkg'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extensions ['colcon_meta']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extension 'colcon_meta'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extensions ['ros']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extension 'ros'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extensions ['cmake', 'python']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extension 'cmake'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extension 'python'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extensions ['python_setup_py']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src) by extension 'python_setup_py'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extensions ['ignore', 'ignore_ament_install']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extension 'ignore'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extension 'ignore_ament_install'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extensions ['colcon_pkg']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extension 'colcon_pkg'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extensions ['colcon_meta']
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extension 'colcon_meta'
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extensions ['ros']
+[2.737s] Level 1:colcon.colcon_core.package_identification:_identify(/home/aoutir/rc_car/src/robot_desc) by extension 'ros'
+[2.739s] DEBUG:colcon.colcon_core.package_identification:Package '/home/aoutir/rc_car/src/robot_desc' with type 'ros.ament_cmake' and name 'robot_desc'
+[2.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

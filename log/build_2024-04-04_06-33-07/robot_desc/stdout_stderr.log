@@ -1,0 +1,8 @@
+-- Install configuration: ""
+-- Up-to-date: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/urdf
+-- Up-to-date: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/urdf/robot_description.urdf.xacro
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/aoutir/rc_car/src/robot_desc/launch": No
+  such file or directory.
+
+[0m

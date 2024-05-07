@@ -1,0 +1,49 @@
+[0.074s] Invoking command in '/home/aoutir/rc_car/src/robot_desc/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/aoutir/rc_car/src/robot_desc -DCMAKE_INSTALL_PREFIX=/home/aoutir/rc_car/src/robot_desc/install/robot_desc
+[0.461s] -- The C compiler identification is GNU 11.4.0
+[0.840s] -- The CXX compiler identification is GNU 11.4.0
+[0.882s] -- Detecting C compiler ABI info
+[1.178s] -- Detecting C compiler ABI info - done
+[1.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.204s] -- Detecting C compile features
+[1.207s] -- Detecting C compile features - done
+[1.221s] -- Detecting CXX compiler ABI info
+[1.470s] -- Detecting CXX compiler ABI info - done
+[1.487s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.487s] -- Detecting CXX compile features
+[1.489s] -- Detecting CXX compile features - done
+[1.539s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.858s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.181s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.446s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.446s] -- Configured cppcheck include dirs: 
+[2.447s] -- Configured cppcheck exclude dirs and/or files: 
+[2.453s] -- Added test 'lint_cmake' to check CMake code style
+[2.473s] -- Added test 'uncrustify' to check C / C++ code style
+[2.473s] -- Configured uncrustify additional arguments: 
+[2.477s] -- Added test 'xmllint' to check XML markup files
+[2.482s] -- Configuring done
+[2.501s] -- Generating done
+[2.505s] -- Build files have been written to: /home/aoutir/rc_car/src/robot_desc/build/robot_desc
+[2.527s] Invoked command in '/home/aoutir/rc_car/src/robot_desc/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/aoutir/rc_car/src/robot_desc -DCMAKE_INSTALL_PREFIX=/home/aoutir/rc_car/src/robot_desc/install/robot_desc
+[2.530s] Invoking command in '/home/aoutir/rc_car/src/robot_desc/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/src/robot_desc/build/robot_desc -- -j2 -l2
+[2.625s] Invoked command in '/home/aoutir/rc_car/src/robot_desc/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/src/robot_desc/build/robot_desc -- -j2 -l2
+[2.715s] Invoking command in '/home/aoutir/rc_car/src/robot_desc/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/src/robot_desc/build/robot_desc
+[2.729s] -- Install configuration: ""
+[2.729s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/urdf
+[2.730s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/urdf/robot_desc.urdf.xacro
+[2.730s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/ament_index/resource_index/package_run_dependencies/robot_desc
+[2.730s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/ament_index/resource_index/parent_prefix_path/robot_desc
+[2.731s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/environment/ament_prefix_path.sh
+[2.731s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/environment/ament_prefix_path.dsv
+[2.732s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/environment/path.sh
+[2.736s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/environment/path.dsv
+[2.736s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/local_setup.bash
+[2.736s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/local_setup.sh
+[2.736s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/local_setup.zsh
+[2.749s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/local_setup.dsv
+[2.749s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/package.dsv
+[2.750s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/ament_index/resource_index/packages/robot_desc
+[2.750s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/cmake/robot_descConfig.cmake
+[2.750s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/cmake/robot_descConfig-version.cmake
+[2.750s] -- Installing: /home/aoutir/rc_car/src/robot_desc/install/robot_desc/share/robot_desc/package.xml
+[2.752s] Invoked command in '/home/aoutir/rc_car/src/robot_desc/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/src/robot_desc/build/robot_desc

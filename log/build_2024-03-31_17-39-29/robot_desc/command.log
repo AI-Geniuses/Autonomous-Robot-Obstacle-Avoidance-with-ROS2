@@ -1,0 +1,6 @@
+Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/aoutir/rc_car/src/robot_desc -DCMAKE_INSTALL_PREFIX=/home/aoutir/rc_car/install/robot_desc
+Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/aoutir/rc_car/src/robot_desc -DCMAKE_INSTALL_PREFIX=/home/aoutir/rc_car/install/robot_desc
+Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_desc
+Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_desc

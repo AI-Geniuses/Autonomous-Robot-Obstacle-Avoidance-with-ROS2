@@ -1,0 +1,21 @@
+[2.493s] Invoking command in '/home/aoutir/rc_car/src/robot_sample_example': PYTHONPATH=/home/aoutir/rc_car/build/robot_sample_example/prefix_override:/home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_sample_example build --build-base /home/aoutir/rc_car/build/robot_sample_example/build install --record /home/aoutir/rc_car/build/robot_sample_example/install.log --single-version-externally-managed install_data
+[2.981s] running egg_info
+[3.026s] writing ../../build/robot_sample_example/robot_sample_example.egg-info/PKG-INFO
+[3.026s] writing dependency_links to ../../build/robot_sample_example/robot_sample_example.egg-info/dependency_links.txt
+[3.026s] writing entry points to ../../build/robot_sample_example/robot_sample_example.egg-info/entry_points.txt
+[3.028s] writing requirements to ../../build/robot_sample_example/robot_sample_example.egg-info/requires.txt
+[3.030s] writing top-level names to ../../build/robot_sample_example/robot_sample_example.egg-info/top_level.txt
+[3.036s] reading manifest file '../../build/robot_sample_example/robot_sample_example.egg-info/SOURCES.txt'
+[3.038s] writing manifest file '../../build/robot_sample_example/robot_sample_example.egg-info/SOURCES.txt'
+[3.042s] running build
+[3.042s] running build_py
+[3.045s] running install
+[3.046s] running install_lib
+[3.047s] running install_data
+[3.049s] running install_egg_info
+[3.053s] removing '/home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages/robot_sample_example-0.0.0-py3.10.egg-info' (and everything under it)
+[3.054s] Copying ../../build/robot_sample_example/robot_sample_example.egg-info to /home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages/robot_sample_example-0.0.0-py3.10.egg-info
+[3.086s] running install_scripts
+[3.115s] Installing create_parameter script to /home/aoutir/rc_car/install/robot_sample_example/lib/robot_sample_example
+[3.119s] writing list of installed files to '/home/aoutir/rc_car/build/robot_sample_example/install.log'
+[3.195s] Invoked command in '/home/aoutir/rc_car/src/robot_sample_example' returned '0': PYTHONPATH=/home/aoutir/rc_car/build/robot_sample_example/prefix_override:/home/aoutir/rc_car/install/robot_sample_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_sample_example build --build-base /home/aoutir/rc_car/build/robot_sample_example/build install --record /home/aoutir/rc_car/build/robot_sample_example/install.log --single-version-externally-managed install_data

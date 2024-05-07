@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclpy: 4.1.4 (/opt/ros/iron/share/rclpy/cmake)
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+Error parsing '/home/aoutir/rc_car/src/robot_controller/package.xml':
+Traceback (most recent call last):
+  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+    main()
+  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+    raise e
+  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+    package = parse_package_string(
+  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+    raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+catkin_pkg.package.InvalidPackage: Error(s) in package '/home/aoutir/rc_car/src/robot_controller/package.xml':
+Error(s):
+- The generic dependency on 'rclpy' is redundant with: build_depend, build_export_depend, exec_depend
+- The generic dependency on 'rclpy' is redundant with: build_depend, build_export_depend, exec_depend
+[31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+  execute_process(/usr/bin/python3.10
+  /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+  /home/aoutir/rc_car/src/robot_controller/package.xml
+  /home/aoutir/rc_car/build/robot_controller/ament_cmake_core/package.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+  /opt/ros/iron/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+  /opt/ros/iron/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  CMakeLists.txt:15 (ament_python_install_package)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/aoutir/rc_car/build/robot_controller/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:254: cmake_check_build_system] Error 1

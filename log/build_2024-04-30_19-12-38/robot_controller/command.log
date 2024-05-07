@@ -1,0 +1,2 @@
+Invoking command in '/home/aoutir/rc_car/build/robot_controller': /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_controller -- -j4 -l4
+Invoked command in '/home/aoutir/rc_car/build/robot_controller' returned '2': /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_controller -- -j4 -l4

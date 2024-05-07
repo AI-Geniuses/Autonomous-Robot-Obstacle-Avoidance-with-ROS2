@@ -1,0 +1,37 @@
+[0.064s] Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+[0.122s] Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --build /home/aoutir/rc_car/build/robot_desc -- -j2 -l2
+[0.225s] Invoking command in '/home/aoutir/rc_car/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_desc
+[0.250s] -- Install configuration: ""
+[0.259s] -- Execute custom install script
+[0.261s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/urdf/robot_description.xacro
+[0.262s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/urdf/robot_gazebo.urdf.xacro
+[0.263s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/urdf/robot_ros2_control.xacro
+[0.264s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/rviz/display.rviz
+[0.266s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_2.sdf
+[0.267s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_3.sdf
+[0.268s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_4.sdf
+[0.269s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model.config
+[0.272s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model.sdf
+[0.272s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_2.sdf
+[0.273s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_3.sdf
+[0.275s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_4.sdf
+[0.276s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/sun/model.config
+[0.276s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/models/models/models/sun/model.sdf
+[0.279s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/launch/gazebo.launch.py
+[0.279s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/launch/robot.launch.py
+[0.281s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/ament_index/resource_index/package_run_dependencies/robot_desc
+[0.282s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/ament_index/resource_index/parent_prefix_path/robot_desc
+[0.283s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/environment/ament_prefix_path.sh
+[0.284s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/environment/ament_prefix_path.dsv
+[0.284s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/environment/path.sh
+[0.287s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/environment/path.dsv
+[0.287s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/local_setup.bash
+[0.288s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/local_setup.sh
+[0.289s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/local_setup.zsh
+[0.291s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/local_setup.dsv
+[0.291s] -- Symlinking: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.dsv
+[0.347s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/ament_index/resource_index/packages/robot_desc
+[0.347s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/cmake/robot_descConfig.cmake
+[0.347s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/cmake/robot_descConfig-version.cmake
+[0.347s] -- Up-to-date symlink: /home/aoutir/rc_car/install/robot_desc/share/robot_desc/package.xml
+[0.400s] Invoked command in '/home/aoutir/rc_car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aoutir/rc_car/install/robot_sample_example:/opt/ros/iron /usr/bin/cmake --install /home/aoutir/rc_car/build/robot_desc
