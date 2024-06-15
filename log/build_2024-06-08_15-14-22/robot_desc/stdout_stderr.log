@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abdou/A/Auto-Car/build/robot_desc
+-- Install configuration: ""
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/robot_ros2_control.xacro
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/lidar.xacro
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/gazebo_control.xacro
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/robot_description.xacro
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/robot_gazebo.urdf.xacro
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/rviz
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/rviz/display.rviz
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_3.sdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model.config
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model.sdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_4.sdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_2.sdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_3.sdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model.config
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model.sdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_4.sdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_2.sdf
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/launch
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/launch/robot.launch.py
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/launch/gazebo.launch.py
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/ament_index/resource_index/package_run_dependencies/robot_desc
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/ament_index/resource_index/parent_prefix_path/robot_desc
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/environment/ament_prefix_path.sh
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/environment/ament_prefix_path.dsv
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/environment/path.sh
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/environment/path.dsv
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/local_setup.bash
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/local_setup.sh
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/local_setup.zsh
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/local_setup.dsv
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/package.dsv
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/ament_index/resource_index/packages/robot_desc
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/cmake/robot_descConfig.cmake
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/cmake/robot_descConfig-version.cmake
+-- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/package.xml

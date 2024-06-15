@@ -1,0 +1,47 @@
+[0.019s] Invoking command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/ROS2-Auto-Robot/build/auto_robot -- -j8 -l8
+[0.069s] Invoked command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/ROS2-Auto-Robot/build/auto_robot -- -j8 -l8
+[0.106s] Invoking command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/ROS2-Auto-Robot/build/auto_robot
+[0.117s] -- Install configuration: ""
+[0.117s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/launch
+[0.117s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/launch/launch_sim.launch.py
+[0.117s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/launch/rsp.launch.py
+[0.118s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config
+[0.118s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/slam_map.rviz
+[0.118s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/map.rviz
+[0.118s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/nav.rviz
+[0.118s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/mapper_params_online_async.yaml
+[0.118s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/main.rviz
+[0.119s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/view_bot.rviz
+[0.119s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/drive_bot.rviz
+[0.119s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/twist_mux.yaml
+[0.119s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/gazebo_params.yaml
+[0.119s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/empty.yaml
+[0.119s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/nav2_params.yaml
+[0.119s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description
+[0.119s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/inertial_macros.xacro
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/robot_core.xacro
+[0.120s] -- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/lidar.xacro
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/camera.xacro
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/face.xacro
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/gazebo_control.xacro
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/robot.urdf.xacro
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/depth_camera.xacro
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/worlds
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/worlds/empty.world
+[0.120s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/worlds/maze.world
+[0.121s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/ament_index/resource_index/package_run_dependencies/auto_robot
+[0.121s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/ament_index/resource_index/parent_prefix_path/auto_robot
+[0.121s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/environment/ament_prefix_path.sh
+[0.121s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/environment/ament_prefix_path.dsv
+[0.121s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/environment/path.sh
+[0.121s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/environment/path.dsv
+[0.122s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/local_setup.bash
+[0.122s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/local_setup.sh
+[0.122s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/local_setup.zsh
+[0.122s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/local_setup.dsv
+[0.123s] -- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.dsv
+[0.124s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/ament_index/resource_index/packages/auto_robot
+[0.124s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/cmake/auto_robotConfig.cmake
+[0.125s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/cmake/auto_robotConfig-version.cmake
+[0.125s] -- Up-to-date: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.xml
+[0.126s] Invoked command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/ROS2-Auto-Robot/build/auto_robot

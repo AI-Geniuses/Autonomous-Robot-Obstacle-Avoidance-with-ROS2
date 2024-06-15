@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abdou/A/ROS2-Auto-Robot/build/auto_robot
+-- Install configuration: ""
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/launch
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/launch/rsp.launch.py
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/view_bot.rviz
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/config/empty.yaml
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/inertial_macros.xacro
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/robot_core.xacro
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/description/robot.urdf.xacro
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/worlds
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/worlds/empty.world
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/ament_index/resource_index/package_run_dependencies/auto_robot
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/ament_index/resource_index/parent_prefix_path/auto_robot
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/environment/ament_prefix_path.sh
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/environment/path.sh
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/environment/path.dsv
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/local_setup.bash
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/local_setup.sh
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/local_setup.zsh
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/local_setup.dsv
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.dsv
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/ament_index/resource_index/packages/auto_robot
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/cmake/auto_robotConfig.cmake
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/cmake/auto_robotConfig-version.cmake
+-- Installing: /home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.xml

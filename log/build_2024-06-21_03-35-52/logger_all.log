@@ -1,0 +1,138 @@
+[0.108s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x788818046e90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7888180467a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7888180467a0>>, mixin_verb=('build',))
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.308s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abdou/A/ROS2-Auto-Robot'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_robot) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_robot' with type 'ros.ament_cmake' and name 'auto_robot'
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.369s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /opt/ros/iron
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'auto_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'auto_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot', 'merge_install': False, 'path': '/home/abdou/A/ROS2-Auto-Robot/src/auto_robot', 'symlink_install': False, 'test_result_base': None}
+[0.420s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.422s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/abdou/A/ROS2-Auto-Robot/src/auto_robot' with build type 'ament_cmake'
+[0.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/abdou/A/ROS2-Auto-Robot/src/auto_robot'
+[0.424s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/ROS2-Auto-Robot/build/auto_robot -- -j8 -l8
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/ROS2-Auto-Robot/build/auto_robot -- -j8 -l8
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/ROS2-Auto-Robot/build/auto_robot
+[0.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_robot)
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/ROS2-Auto-Robot/build/auto_robot
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot' for CMake module files
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot' for CMake config files
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_robot', 'cmake_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/hook/cmake_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/hook/cmake_prefix_path.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/hook/cmake_prefix_path.sh'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/bin'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/lib/pkgconfig/auto_robot.pc'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/lib/python3.10/site-packages'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/bin'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.sh'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.bash'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.zsh'
+[0.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/colcon-core/packages/auto_robot)
+[0.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_robot)
+[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot' for CMake module files
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot' for CMake config files
+[0.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_robot', 'cmake_prefix_path')
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/hook/cmake_prefix_path.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/hook/cmake_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/hook/cmake_prefix_path.sh'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/bin'
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/lib/pkgconfig/auto_robot.pc'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/lib/python3.10/site-packages'
+[0.539s] Level 1:colcon.colcon_core.environment:checking '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/bin'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.ps1'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.sh'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.bash'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/auto_robot/package.zsh'
+[0.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/abdou/A/ROS2-Auto-Robot/install/auto_robot/share/colcon-core/packages/auto_robot)
+[0.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.542s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.542s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.542s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.548s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.561s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdou/A/ROS2-Auto-Robot/install/local_setup.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abdou/A/ROS2-Auto-Robot/install/_local_setup_util_ps1.py'
+[0.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdou/A/ROS2-Auto-Robot/install/setup.ps1'
+[0.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdou/A/ROS2-Auto-Robot/install/local_setup.sh'
+[0.567s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/abdou/A/ROS2-Auto-Robot/install/_local_setup_util_sh.py'
+[0.568s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdou/A/ROS2-Auto-Robot/install/setup.sh'
+[0.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdou/A/ROS2-Auto-Robot/install/local_setup.bash'
+[0.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdou/A/ROS2-Auto-Robot/install/setup.bash'
+[0.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/abdou/A/ROS2-Auto-Robot/install/local_setup.zsh'
+[0.571s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/abdou/A/ROS2-Auto-Robot/install/setup.zsh'

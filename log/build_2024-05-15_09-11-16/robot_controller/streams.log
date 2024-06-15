@@ -1,0 +1,46 @@
+[0.013s] Invoking command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller -- -j8 -l8
+[0.073s] Built target ament_cmake_python_copy_robot_controller
+[0.349s] running egg_info
+[0.349s] writing robot_controller.egg-info/PKG-INFO
+[0.350s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[0.350s] writing top-level names to robot_controller.egg-info/top_level.txt
+[0.352s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[0.353s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[0.381s] Built target ament_cmake_python_build_robot_controller_egg
+[0.391s] Invoked command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller -- -j8 -l8
+[0.414s] Invoking command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller
+[0.425s] -- Install configuration: ""
+[0.425s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/pythonpath.sh
+[0.425s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/pythonpath.dsv
+[0.425s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[0.425s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.425s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.425s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.425s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.425s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.425s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/teleop_twist_keyboard.py
+[0.426s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py
+[0.426s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/simple_controller.py
+[0.463s] Listing '/home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller'...
+[0.468s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/config
+[0.468s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/config/robot_controllers.yaml
+[0.468s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/launch
+[0.468s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/launch/controller.launch.py
+[0.468s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/robot_controller/simple_controller.py
+[0.468s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/robot_controller/teleop_twist_keyboard.py
+[0.468s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[0.468s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/path.sh
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/path.dsv
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/local_setup.bash
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/local_setup.sh
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/local_setup.zsh
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/local_setup.dsv
+[0.469s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/package.dsv
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[0.469s] -- Up-to-date: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/package.xml
+[0.471s] Invoked command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller

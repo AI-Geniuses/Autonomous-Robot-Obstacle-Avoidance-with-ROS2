@@ -1,0 +1,4 @@
+source;share/auto_robot/local_setup.bash
+source;share/auto_robot/local_setup.dsv
+source;share/auto_robot/local_setup.sh
+source;share/auto_robot/local_setup.zsh

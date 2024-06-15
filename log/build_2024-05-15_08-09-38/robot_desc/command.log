@@ -1,0 +1,4 @@
+Invoking command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/rc_car/Auto-Car-Project/build/robot_desc -- -j8 -l8
+Invoked command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/rc_car/Auto-Car-Project/build/robot_desc -- -j8 -l8
+Invoking command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/rc_car/Auto-Car-Project/build/robot_desc
+Invoked command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/rc_car/Auto-Car-Project/build/robot_desc

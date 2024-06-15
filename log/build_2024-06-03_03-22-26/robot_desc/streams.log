@@ -1,0 +1,72 @@
+[0.008s] Invoking command in '/home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/abdou/A/Test/Autonomous-Car-Project/src/robot_desc -DCMAKE_INSTALL_PREFIX=/home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.242s] -- The CXX compiler identification is GNU 11.4.0
+[0.252s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.328s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.334s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.441s] -- Detecting CXX compile features
+[0.442s] -- Detecting CXX compile features - done
+[0.450s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.664s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.762s] -- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+[0.764s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.846s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.846s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.847s] -- Added test 'lint_cmake' to check CMake code style
+[0.848s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.850s] -- Added test 'xmllint' to check XML markup files
+[0.852s] -- Configuring done
+[0.856s] -- Generating done
+[0.858s] -- Build files have been written to: /home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc
+[0.863s] Invoked command in '/home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/abdou/A/Test/Autonomous-Car-Project/src/robot_desc -DCMAKE_INSTALL_PREFIX=/home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc
+[0.865s] Invoking command in '/home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc -- -j8 -l8
+[0.898s] Invoked command in '/home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc -- -j8 -l8
+[0.929s] Invoking command in '/home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc
+[0.935s] -- Install configuration: ""
+[0.936s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/urdf
+[0.936s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/urdf/robot_ros2_control.xacro
+[0.936s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/urdf/lidar.xacro
+[0.936s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/urdf/gazebo_control.xacro
+[0.936s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/urdf/robot_description.xacro
+[0.936s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/urdf/robot_gazebo.urdf.xacro
+[0.936s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/rviz
+[0.936s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/rviz/display.rviz
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/ground_plane
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_3.sdf
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model.config
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model.sdf
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_4.sdf
+[0.937s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_2.sdf
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/sun
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_3.sdf
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/sun/model.config
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/sun/model.sdf
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_4.sdf
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_2.sdf
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/launch
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/launch/robot.launch.py
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/launch/gazebo.launch.py
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/ament_index/resource_index/package_run_dependencies/robot_desc
+[0.938s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/ament_index/resource_index/parent_prefix_path/robot_desc
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/environment/ament_prefix_path.sh
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/environment/ament_prefix_path.dsv
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/environment/path.sh
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/environment/path.dsv
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/local_setup.bash
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/local_setup.sh
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/local_setup.zsh
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/local_setup.dsv
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/package.dsv
+[0.939s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/ament_index/resource_index/packages/robot_desc
+[0.940s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/cmake/robot_descConfig.cmake
+[0.940s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/cmake/robot_descConfig-version.cmake
+[0.940s] -- Installing: /home/abdou/A/Test/Autonomous-Car-Project/install/robot_desc/share/robot_desc/package.xml
+[0.942s] Invoked command in '/home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/Test/Autonomous-Car-Project/build/robot_desc

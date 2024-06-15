@@ -1,0 +1,4 @@
+Invoking command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/ROS2-Auto-Robot/build/auto_robot -- -j8 -l8
+Invoked command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/ROS2-Auto-Robot/build/auto_robot -- -j8 -l8
+Invoking command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/ROS2-Auto-Robot/build/auto_robot
+Invoked command in '/home/abdou/A/ROS2-Auto-Robot/build/auto_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/ROS2-Auto-Robot/build/auto_robot

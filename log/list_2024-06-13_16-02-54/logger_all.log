@@ -1,0 +1,56 @@
+[0.228s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/abdou/A/Auto-Car']
+[0.228s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/abdou/A/Auto-Car'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x753de8633520>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x753de8632980>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x753de8632980>>, mixin_verb=('list',))
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.562s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/abdou/A/Auto-Car'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extension 'ros'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extensions ['cmake', 'python']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extension 'cmake'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extension 'python'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extensions ['python_setup_py']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car) by extension 'python_setup_py'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/build) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/build) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/build) ignored
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/install) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/install) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/install) ignored
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/log) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/log) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/log) ignored
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extension 'ros'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extensions ['cmake', 'python']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extension 'cmake'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extension 'python'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extensions ['python_setup_py']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src) by extension 'python_setup_py'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/abdou/A/Auto-Car/src/robot_desc) by extension 'ros'
+[0.596s] DEBUG:colcon.colcon_core.package_identification:Package '/home/abdou/A/Auto-Car/src/robot_desc' with type 'ros.ament_cmake' and name 'robot_desc'
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

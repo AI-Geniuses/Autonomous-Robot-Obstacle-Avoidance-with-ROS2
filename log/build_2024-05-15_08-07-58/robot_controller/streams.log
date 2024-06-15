@@ -1,0 +1,83 @@
+[0.014s] Invoking command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/abdou/A/rc_car/Auto-Car-Project/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.134s] -- Detecting C compiler ABI info
+[0.200s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.299s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.474s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.560s] -- Found rclpy: 4.1.4 (/opt/ros/iron/share/rclpy/cmake)
+[0.561s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.630s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.646s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.753s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[0.895s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.988s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.988s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.989s] -- Added test 'lint_cmake' to check CMake code style
+[0.989s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.991s] -- Added test 'xmllint' to check XML markup files
+[0.992s] -- Configuring done
+[0.998s] -- Generating done
+[1.000s] -- Build files have been written to: /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller
+[1.009s] Invoked command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/abdou/A/rc_car/Auto-Car-Project/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller
+[1.011s] Invoking command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller -- -j8 -l8
+[1.064s] Built target ament_cmake_python_copy_robot_controller
+[1.336s] running egg_info
+[1.337s] creating robot_controller.egg-info
+[1.337s] writing robot_controller.egg-info/PKG-INFO
+[1.337s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[1.338s] writing top-level names to robot_controller.egg-info/top_level.txt
+[1.338s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.340s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.341s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[1.370s] Built target ament_cmake_python_build_robot_controller_egg
+[1.381s] Invoked command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller -- -j8 -l8
+[1.406s] Invoking command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller
+[1.417s] -- Install configuration: ""
+[1.418s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/pythonpath.sh
+[1.418s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/pythonpath.dsv
+[1.418s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[1.418s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.418s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.418s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.418s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.419s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[1.419s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/teleop_twist_keyboard.py
+[1.419s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py
+[1.419s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/simple_controller.py
+[1.454s] Listing '/home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller'...
+[1.454s] Compiling '/home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py'...
+[1.454s] Compiling '/home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/simple_controller.py'...
+[1.455s] Compiling '/home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/python3.10/site-packages/robot_controller/teleop_twist_keyboard.py'...
+[1.462s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/config
+[1.462s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/config/robot_controllers.yaml
+[1.462s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/launch
+[1.462s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/launch/controller.launch.py
+[1.463s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/robot_controller/simple_controller.py
+[1.463s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/lib/robot_controller/teleop_twist_keyboard.py
+[1.463s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/ament_index/resource_index/package_run_dependencies/robot_controller
+[1.463s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/ament_index/resource_index/parent_prefix_path/robot_controller
+[1.463s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/ament_prefix_path.sh
+[1.463s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/ament_prefix_path.dsv
+[1.463s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/path.sh
+[1.464s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/environment/path.dsv
+[1.464s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/local_setup.bash
+[1.464s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/local_setup.sh
+[1.464s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/local_setup.zsh
+[1.464s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/local_setup.dsv
+[1.464s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/package.dsv
+[1.465s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
+[1.465s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig.cmake
+[1.465s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/cmake/robot_controllerConfig-version.cmake
+[1.465s] -- Installing: /home/abdou/A/rc_car/Auto-Car-Project/install/robot_controller/share/robot_controller/package.xml
+[1.468s] Invoked command in '/home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/rc_car/Auto-Car-Project/build/robot_controller

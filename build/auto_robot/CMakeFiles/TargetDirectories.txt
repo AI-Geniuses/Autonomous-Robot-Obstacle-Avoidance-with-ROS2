@@ -1,0 +1,9 @@
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/uninstall.dir
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/auto_robot_uninstall.dir
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/test.dir
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/edit_cache.dir
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/rebuild_cache.dir
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/list_install_components.dir
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/install.dir
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/install/local.dir
+/home/abdou/A/ROS2-Auto-Robot/build/auto_robot/CMakeFiles/install/strip.dir

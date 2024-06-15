@@ -1,0 +1,72 @@
+[0.010s] Invoking command in '/home/abdou/A/Auto-Car/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/abdou/A/Auto-Car/src/robot_desc -DCMAKE_INSTALL_PREFIX=/home/abdou/A/Auto-Car/install/robot_desc
+[0.179s] -- The C compiler identification is GNU 11.4.0
+[0.267s] -- The CXX compiler identification is GNU 11.4.0
+[0.275s] -- Detecting C compiler ABI info
+[0.384s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.394s] -- Detecting C compile features
+[0.395s] -- Detecting C compile features - done
+[0.398s] -- Detecting CXX compiler ABI info
+[0.479s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.654s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.731s] -- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+[0.732s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.799s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.799s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.800s] -- Added test 'lint_cmake' to check CMake code style
+[0.801s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.802s] -- Added test 'xmllint' to check XML markup files
+[0.803s] -- Configuring done
+[0.805s] -- Generating done
+[0.806s] -- Build files have been written to: /home/abdou/A/Auto-Car/build/robot_desc
+[0.811s] Invoked command in '/home/abdou/A/Auto-Car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/abdou/A/Auto-Car/src/robot_desc -DCMAKE_INSTALL_PREFIX=/home/abdou/A/Auto-Car/install/robot_desc
+[0.814s] Invoking command in '/home/abdou/A/Auto-Car/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/Auto-Car/build/robot_desc -- -j8 -l8
+[0.847s] Invoked command in '/home/abdou/A/Auto-Car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/abdou/A/Auto-Car/build/robot_desc -- -j8 -l8
+[0.874s] Invoking command in '/home/abdou/A/Auto-Car/build/robot_desc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/Auto-Car/build/robot_desc
+[0.881s] -- Install configuration: ""
+[0.881s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf
+[0.881s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/robot_ros2_control.xacro
+[0.881s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/lidar.xacro
+[0.881s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/gazebo_control.xacro
+[0.881s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/robot_description.xacro
+[0.881s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/urdf/robot_gazebo.urdf.xacro
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/rviz
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/rviz/display.rviz
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_3.sdf
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model.config
+[0.882s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model.sdf
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_4.sdf
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/ground_plane/model-1_2.sdf
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_3.sdf
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model.config
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model.sdf
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_4.sdf
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/models/models/models/sun/model-1_2.sdf
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/launch
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/launch/robot.launch.py
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/launch/gazebo.launch.py
+[0.883s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/ament_index/resource_index/package_run_dependencies/robot_desc
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/ament_index/resource_index/parent_prefix_path/robot_desc
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/environment/ament_prefix_path.sh
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/environment/ament_prefix_path.dsv
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/environment/path.sh
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/environment/path.dsv
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/local_setup.bash
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/local_setup.sh
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/local_setup.zsh
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/local_setup.dsv
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/package.dsv
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/ament_index/resource_index/packages/robot_desc
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/cmake/robot_descConfig.cmake
+[0.884s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/cmake/robot_descConfig-version.cmake
+[0.885s] -- Installing: /home/abdou/A/Auto-Car/install/robot_desc/share/robot_desc/package.xml
+[0.886s] Invoked command in '/home/abdou/A/Auto-Car/build/robot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/abdou/A/Auto-Car/build/robot_desc
